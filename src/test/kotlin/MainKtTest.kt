@@ -246,4 +246,9 @@ class MainKtTest {
 
         assertEquals("Ожидалось, что комиссия составит процент (0.75%) от платежа.", expected, actual)
     }
+
+    @Test
+    fun fail() {
+        fail()
+    }
 }
